@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BFA9DD772D3AAF0C00B4E68F /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DD762D3AAF0C00B4E68F /* SleepCalculator.mlmodel */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BFA9DD5A2D38D2DB00B4E68F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		BFA9DD492D38D2DA00B4E68F /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9DD592D38D2DB00B4E68F /* BetterRestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9DD632D38D2DB00B4E68F /* BetterRestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterRestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA9DD762D3AAF0C00B4E68F /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -76,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				BFA9DD4B2D38D2DA00B4E68F /* BetterRest */,
+				BFA9DD762D3AAF0C00B4E68F /* SleepCalculator.mlmodel */,
 				BFA9DD5C2D38D2DB00B4E68F /* BetterRestTests */,
 				BFA9DD662D38D2DB00B4E68F /* BetterRestUITests */,
 				BFA9DD4A2D38D2DA00B4E68F /* Products */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA9DD772D3AAF0C00B4E68F /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
